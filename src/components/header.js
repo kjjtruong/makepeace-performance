@@ -1,0 +1,69 @@
+import { Link, useStaticQuery, graphql } from "gatsby";
+import React, { useState } from "react";
+
+function Header() {
+  const [isExpanded, toggleExpansion] = useState(false);
+
+  const data = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `);
+
+  return (
+    <header className="sticky top-0 z-40">      
+      <div className="flex bg-white flex-wrap items-center justify-between w-screen mx-auto px-4 sm:px-6 lg:px-8 py-4 shadow-md">
+        <Link to="/" className="font-extrabold uppercase">
+          {data.site.siteMetadata.title}
+        </Link>
+
+        <button
+          className="flex items-center block px-3 py-2 text-black border border-black rounded md:hidden"
+          onClick={() => toggleExpansion(!isExpanded)}
+        >
+          <svg
+            className="w-3 h-3 fill-current"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>Menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          </svg>
+        </button>
+
+        <nav
+          className={`${
+            isExpanded ? `block` : `hidden`
+          } md:block md:flex md:items-center w-full md:w-auto text-center`}
+        >
+          {[            
+            {
+              route: `/about`,
+              title: `Meet the Coach`,
+            },            
+          ].map((link) => (
+            <Link
+              className="block mt-4 no-underline md:inline-block md:mt-0 md:ml-6 rounded-lg px-3 py-2 text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:bg-gray-100 hover:delay-[0ms]"
+              key={link.title}
+              to={link.route}
+            >
+              {link.title}
+            </Link>
+          ))}
+          <Link
+            className="block md:inline-block mt-4 md:mt-0 md:ml-6 no-underline bg-black text-white py-3 px-5 rounded-full text-base outline-2 outline-offset-2 transition-colors text-zinc-100 bg-zinc-800 hover:bg-zinc-600 active:bg-zinc-800 active:text-gray-700/80"
+            to="/"            
+          >
+            Train me
+          </Link>
+        </nav>
+      </div>
+    </header>
+  );
+}
+
+export default Header;
