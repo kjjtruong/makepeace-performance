@@ -24,7 +24,7 @@ const IndexPage = () => {
               </p>
               <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
                 <Link
-                  className="inline-flex justify-center rounded-full border py-3 px-5 font-semibold outline-2 outline-offset-2 transition-colors text-zinc-100 bg-orange-500 hover:bg-zinc-600 active:bg-zinc-800 active:text-gray-700/80"
+                  className="inline-flex justify-center rounded-full border py-3 px-5 font-semibold outline-2 outline-offset-2 transition-colors text-zinc-100 bg-orange-500 hover:bg-zinc-600 active:bg-zinc-800 active:text-zinc-100"
                   to="/"
                 >
                   Train me now
@@ -244,7 +244,7 @@ const IndexPage = () => {
               Get a step ahead of your competition.
             </p>
             <Link
-              className="group inline-flex items-center justify-center rounded-full py-3 px-5 text-base font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-orange-500 text-white hover:bg-zinc-600 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10"
+              className="group inline-flex items-center justify-center rounded-full py-3 px-5 text-base font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-orange-500 text-white hover:bg-zinc-600 active:bg-zinc-800 active:text-zinc-100 focus-visible:outline-white mt-10"
               to="/"
             >
               Sign up now
