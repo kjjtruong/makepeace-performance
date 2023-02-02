@@ -24,7 +24,7 @@ const IndexPage = () => {
               </p>
               <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
                 <Link
-                  className="inline-flex justify-center rounded-full border py-3 px-5 text-base outline-2 outline-offset-2 transition-colors text-zinc-100 bg-zinc-800 hover:bg-zinc-600 active:bg-zinc-800 active:text-gray-700/80"
+                  className="inline-flex justify-center rounded-full border py-3 px-5 font-semibold outline-2 outline-offset-2 transition-colors text-zinc-100 bg-orange-500 hover:bg-zinc-600 active:bg-zinc-800 active:text-gray-700/80"
                   to="/"
                 >
                   Train me now
@@ -71,17 +71,19 @@ const IndexPage = () => {
       {/* Services */}
       <section className="pt-20 sm:pt-32">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
-            <h2 className="text-6xl font-bold tracking-tight text-zinc-800">
-              Build a strong mind and become leaps ahead of your competition.
-            </h2>
-            <p className="mt-6 text-lg text-slate-600">
-              We offer virtual/in-person group and individual sessions. Weekend
-              workshops are also provided. Athletes can purchase sessions on an
-              individual or packaged basis. All services are individualized to
-              the athlete or team's specific needs. Here are our three core
-              concepts.
-            </p>
+          <div className="mx-auto md:grid md:grid-cols-3">
+            <div className="md:col-start-2 md:col-span-2">
+              <h2 className="text-6xl font-bold tracking-tight text-zinc-800">
+                Build a strong mind and become leaps ahead of your competition.
+              </h2>
+              <p className="mt-6 text-lg text-slate-600">
+                We offer virtual/in-person group and individual sessions.
+                Weekend workshops are also provided. Athletes can purchase
+                sessions on an individual or packaged basis. All services are
+                individualized to the athlete or team's specific needs. Here are
+                our three core concepts.
+              </p>
+            </div>            
           </div>
 
           <div className="mx-auto md:max-w-2xl lg:max-w-7xl mt-16">
@@ -160,20 +162,20 @@ const IndexPage = () => {
                       <div className="font-medium text-xl text-slate-800">
                         Lukas, 17
                       </div>
-                      <div className="mt-1 uppercase text-base text-slate-500">
+                      <div className="mt-1 uppercase text-base text-orange-500">
                         Hockey
                       </div>
                     </div>
                   </figcaption>
                   <blockquote className="md:block relative md:col-span-2 mb-3 mt-4 md:mt-0 flex items-center text-lg text-slate-800 dark:text-zinc-400">
-                    Working with Tyler has really increased my overall
+                    "Working with Tyler has really increased my overall
                     performance on the ice, I have been working with him for a
                     couple years now and I learn something new every time we
                     chat. I have really learned how to use my mind to my
                     advantage while playing hockey and use it as a positive
                     asset. My mindset on the ice has improved drastically since
                     connecting with Tyler. I feel more confident in myself and a
-                    lot more prepared before games and practices.
+                    lot more prepared before games and practices."
                   </blockquote>
                 </figure>
 
@@ -183,13 +185,13 @@ const IndexPage = () => {
                       <div className="font-medium text-xl text-slate-800">
                         Carla, 38
                       </div>
-                      <div className="mt-1 uppercase text-base text-slate-500">
+                      <div className="mt-1 uppercase text-base text-orange-500">
                         Ultramarathon
                       </div>
                     </div>
                   </figcaption>
                   <blockquote className="md:block relative md:col-span-2 mb-3 mt-4 md:mt-0 flex items-center text-lg text-slate-800 dark:text-zinc-400">
-                    When I started working with Tyler I was facing some serious
+                    "When I started working with Tyler I was facing some serious
                     mental challenges that were preventing me to reach my full
                     athletic potential. I didn’t have the tools to channel my
                     mental demons. Not very often you can have an expert to
@@ -199,7 +201,7 @@ const IndexPage = () => {
                     his help I was able to qualify one more time to two major
                     international competitions. I have learned so many tools
                     that I will continue using through major events. I couldn't
-                    speak highly enough of how he has helped me over this time.
+                    speak highly enough of how he has helped me over this time."
                   </blockquote>
                 </figure>
 
@@ -209,20 +211,20 @@ const IndexPage = () => {
                       <div className="font-medium text-xl text-slate-800">
                         Runel, 28
                       </div>
-                      <div className="mt-1 uppercase text-base text-slate-500">
+                      <div className="mt-1 uppercase text-base text-orange-500">
                         Weighlifting
                       </div>
                     </div>
                   </figcaption>
                   <blockquote className="md:block relative md:col-span-2 mb-3 mt-4 md:mt-0 flex items-center text-lg text-slate-800 dark:text-slate-400">
-                    During my sessions with Tyler we dove into why I might be in
+                    "During my sessions with Tyler we dove into why I might be in
                     my head for my lifts. Tyler taught me some exercises to do
                     after our sessions that ultimately helped me get out of my
                     head and to trust myself and capabilities more. I ended up
                     winning gold and tying a provincial record for the clean and
                     jerk. I am not currently training for a meet, but once I am
                     ready to compete again, I will definitely be running back to
-                    Tyler
+                    Tyler"
                   </blockquote>
                 </figure>
               </div>
@@ -242,7 +244,7 @@ const IndexPage = () => {
               Get a step ahead of your competition.
             </p>
             <Link
-              className="group inline-flex items-center justify-center rounded-full py-3 px-5 text-base font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-white text-slate-900 hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10"
+              className="group inline-flex items-center justify-center rounded-full py-3 px-5 text-base font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-orange-500 text-white hover:bg-zinc-600 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10"
               to="/"
             >
               Sign up now

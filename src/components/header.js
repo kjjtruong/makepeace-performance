@@ -47,7 +47,7 @@ function Header() {
             },            
           ].map((link) => (
             <Link
-              className="block mt-4 no-underline md:inline-block md:mt-0 md:ml-6 rounded-lg px-3 py-2 text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:bg-gray-100 hover:delay-[0ms]"
+              className="block mt-4 no-underline md:inline-block md:mt-0 md:ml-6 rounded-full px-3 py-2 text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:bg-gray-100 hover:delay-[0ms]"
               key={link.title}
               to={link.route}
             >
@@ -55,7 +55,7 @@ function Header() {
             </Link>
           ))}
           <Link
-            className="block md:inline-block mt-4 md:mt-0 md:ml-6 no-underline bg-black text-white py-3 px-5 rounded-full text-base outline-2 outline-offset-2 transition-colors text-zinc-100 bg-zinc-800 hover:bg-zinc-600 active:bg-zinc-800 active:text-gray-700/80"
+            className="block md:inline-block mt-4 md:mt-0 md:ml-6 no-underline bg-orange-500 text-white py-3 px-5 rounded-full font-semibold outline-2 outline-offset-2 transition-colors text-zinc-100 bg-zinc-800 hover:bg-zinc-600 active:bg-zinc-800 active:text-gray-700/80"
             to="/"            
           >
             Train me
