@@ -14,11 +14,11 @@ const IndexPage = () => {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="">
             <div className="relative z-10 mx-auto lg:col-span-7 lg:max-w-none lg:pt-6">
-              <h1 className="uppercase text-7xl font-extrabold tracking-tight text-zinc-800 dark:text-zinc-100 xs:text-5xl">
+              <h1 className="uppercase text-7xl font-extrabold tracking-tight text-zinc-800 xs:text-5xl">
                 A weak mind equals a weak body. A strong mind equals power
                 beyond limits.
               </h1>
-              <p className="mt-6 text-lg text-slate-600 dark:text-slate-400">
+              <p className="mt-6 text-lg text-slate-600">
                 We are dedicated to enhancing an athlete's mental preparation.
                 Enabling them to achieve optimal performance.
               </p>
@@ -154,7 +154,7 @@ const IndexPage = () => {
             </h2>
           </div>
           <div className="mt-16 sm:mt-20">
-            <div className="md:border-zinc-100 md:dark:border-zinc-700/40">
+            <div className="md:border-zinc-100">
               <div className="flex flex-col space-y-8">
                 <figure className="md:grid md:grid-cols-3 md:items-baseline border-solid border-2 rounded-2xl p-8">
                   <figcaption className="group relative flex items-start">
@@ -167,7 +167,7 @@ const IndexPage = () => {
                       </div>
                     </div>
                   </figcaption>
-                  <blockquote className="md:block relative md:col-span-2 mb-3 mt-4 md:mt-0 flex items-center text-lg text-slate-800 dark:text-zinc-400">
+                  <blockquote className="md:block relative md:col-span-2 mb-3 mt-4 md:mt-0 flex items-center text-lg text-slate-800">
                     "Working with Tyler has really increased my overall
                     performance on the ice, I have been working with him for a
                     couple years now and I learn something new every time we
@@ -190,7 +190,7 @@ const IndexPage = () => {
                       </div>
                     </div>
                   </figcaption>
-                  <blockquote className="md:block relative md:col-span-2 mb-3 mt-4 md:mt-0 flex items-center text-lg text-slate-800 dark:text-zinc-400">
+                  <blockquote className="md:block relative md:col-span-2 mb-3 mt-4 md:mt-0 flex items-center text-lg text-slate-800">
                     "When I started working with Tyler I was facing some serious
                     mental challenges that were preventing me to reach my full
                     athletic potential. I didn’t have the tools to channel my
@@ -216,7 +216,7 @@ const IndexPage = () => {
                       </div>
                     </div>
                   </figcaption>
-                  <blockquote className="md:block relative md:col-span-2 mb-3 mt-4 md:mt-0 flex items-center text-lg text-slate-800 dark:text-slate-400">
+                  <blockquote className="md:block relative md:col-span-2 mb-3 mt-4 md:mt-0 flex items-center text-lg text-slate-800">
                     "During my sessions with Tyler we dove into why I might be in
                     my head for my lifts. Tyler taught me some exercises to do
                     after our sessions that ultimately helped me get out of my
