@@ -5,7 +5,37 @@ import { StaticImage } from "gatsby-plugin-image";
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="About Me">
+    <Layout pageTitle="About">
+      {/* About */}
+      <section className="pt-20 sm:pt-32">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
+            <h2 className="text-6xl font-bold tracking-tight text-zinc-800">
+              Striving for continual progress and peak performance.
+            </h2>
+            <p className="mt-6 text-lg text-slate-600">
+              TCM Performance specializes in performance services that can aid
+              athletes, performance, and business professionals reach
+              performance excellence. We've been providing mental skills
+              training and performance consultation since 2020. With the immense
+              pressure that comes with performing in high performance
+              environments, performers require skills that will enable them to
+              perform at their best. TCM Performance is dedicated to providing
+              clients the necessary tools that will contribute to positive
+              behaviour change and personal/professional success.
+            </p>
+          </div>
+          <div className="mx-auto mt-20">
+            <StaticImage
+              alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+              src="../images/runner.webp"
+              className="rounded-2xl"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Coaches */}
       <section className="border-t border-gray-200 py-20 sm:py-32">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
@@ -37,7 +67,7 @@ const AboutPage = () => {
                 <p>
                   He also writes a weekly newsletter focused on enhancing
                   personal wellness and striving for excellence called "Tyler
-                  Talks", which can be found on his Substack page.                  
+                  Talks", which can be found on his Substack page.
                 </p>
                 <ul>
                   <li className="flex">
@@ -86,6 +116,6 @@ const AboutPage = () => {
   );
 };
 
-export const Head = () => <Seo title="About Me" />;
+export const Head = () => <Seo title="About Us" />;
 
 export default AboutPage;

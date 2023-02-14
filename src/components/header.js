@@ -43,7 +43,11 @@ function Header() {
           {[            
             {
               route: `/about`,
-              title: `Meet the Coach`,
+              title: `About`,
+            },
+            {
+              route: `/faq`,
+              title: `FAQ`,
             },            
           ].map((link) => (
             <Link
