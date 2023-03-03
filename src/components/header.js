@@ -1,5 +1,6 @@
 import { Link, useStaticQuery, graphql } from "gatsby";
 import React, { useState } from "react";
+import { StaticImage } from "gatsby-plugin-image";
 
 function Header() {
   const [isExpanded, toggleExpansion] = useState(false);
@@ -17,8 +18,8 @@ function Header() {
   return (
     <header className="sticky top-0 z-40">      
       <div className="flex bg-white flex-wrap items-center justify-between w-screen mx-auto px-4 sm:px-6 lg:px-8 py-4 shadow-md">
-        <Link to="/" className="font-extrabold uppercase">
-          {data.site.siteMetadata.title}
+        <Link to="/">        
+          <StaticImage alt={data.site.siteMetadata.title} src="../images/logo-tcm-black.png" className="w-20"/>
         </Link>
 
         <button
@@ -58,12 +59,14 @@ function Header() {
               {link.title}
             </Link>
           ))}
-          <Link
+          <a
             className="block md:inline-block mt-4 md:mt-0 md:ml-6 no-underline py-3 px-5 rounded-full font-semibold outline-2 outline-offset-2 transition-colors text-zinc-100 bg-orange-500 hover:bg-zinc-600 active:bg-zinc-800 active:text-zinc-100"
-            to="/"            
+            href="https://calendly.com/tcmperformance/tcm-performance-coaching"
+            target="_blank"
+            rel="noreferrer"    
           >
             Train me
-          </Link>
+          </a>
         </nav>
       </div>
     </header>

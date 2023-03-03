@@ -3,7 +3,6 @@ import * as React from "react";
 import Layout from "../components/layout";
 import { StaticImage } from "gatsby-plugin-image";
 import Seo from "../components/seo";
-import { Link } from "gatsby";
 
 // Step 2: Define your component
 const IndexPage = () => {
@@ -23,12 +22,14 @@ const IndexPage = () => {
                 Enabling them to achieve optimal performance.
               </p>
               <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
-                <Link
+                <a
                   className="inline-flex justify-center rounded-full border py-3 px-5 font-semibold outline-2 outline-offset-2 transition-colors text-zinc-100 bg-orange-500 hover:bg-zinc-600 active:bg-zinc-800 active:text-zinc-100"
-                  to="/"
+                  href="https://calendly.com/tcmperformance/tcm-performance-coaching"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Train me now
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -243,12 +244,14 @@ const IndexPage = () => {
             <p className="mt-4 text-lg text-gray-300">
               Get a step ahead of your competition.
             </p>
-            <Link
+            <a
               className="group inline-flex items-center justify-center rounded-full py-3 px-5 text-base font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-orange-500 text-white hover:bg-zinc-600 active:bg-zinc-800 active:text-zinc-100 focus-visible:outline-white mt-10"
-              to="/"
+              href="https://calendly.com/tcmperformance/tcm-performance-coaching"
+              target="_blank"
+              rel="noreferrer"
             >
-              Sign up now
-            </Link>
+              Book a consultation
+            </a>
           </div>
         </div>
       </section>
