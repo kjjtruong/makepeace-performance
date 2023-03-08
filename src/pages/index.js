@@ -23,12 +23,10 @@ const IndexPage = () => {
               </p>
               <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
                 <a
-                  className="inline-flex justify-center rounded-full border py-3 px-5 font-semibold outline-2 outline-offset-2 transition-colors text-zinc-100 bg-orange-500 hover:bg-zinc-600 active:bg-zinc-800 active:text-zinc-100"
-                  href="https://calendly.com/tcmperformance/tcm-performance-coaching"
-                  target="_blank"
-                  rel="noreferrer"
+                  className="inline-flex justify-center rounded-full border py-3 px-5 font-semibold outline-2 outline-offset-2 transition-colors text-zinc-100 bg-black hover:bg-zinc-600 active:bg-zinc-800 active:text-zinc-100"
+                  href="mailto:tyler@tcmperformance.ca"
                 >
-                  Train me now
+                  Book free consultation
                 </a>
               </div>
             </div>
@@ -49,16 +47,138 @@ const IndexPage = () => {
               People will only go as far as their mind allows.
             </h2>
             <p className="mt-6 text-lg text-slate-600">
-              Physical preparation can only take athletes so far. It doesn't
-              matter if they are a recreational or high level competitive
+              Physical preparation can only take athletes so far. If athlete's
+              aren't mentally prepared for the obstacles and challenges that lie
+              ahead, their true potential will never be reached. It
+              doesn'tmatter if they are a recreational or high level competitive
               athlete, only once their mind is unlocked can they achieve their
-              full potential. You've put in the physical preparation in the
+              full potential.
+            </p>
+            <p className="mt-6 text-lg text-slate-600">
+              You've put in the physical preparation in the
               offseason, now it's time to put your mental capabilities to the
-              test. If athlete's aren't mentally prepared for the obstacles and
-              challenges that lie ahead, their true potential will never be
-              reached.
+              test.
             </p>
           </div>
+
+          <div className="mx-auto md:max-w-2xl lg:max-w-7xl mt-16">
+            <h2 className="text-3xl font-medium tracking-tight text-slate-900">
+              Our three core steps:
+            </h2>
+            <ol className="grid grid-cols-1 gap-y-10 gap-x-8 lg:grid-cols-3 mt-8">
+              {/* Service 1 */}
+              <li className="grid auto-rows-min grid-cols-1 items-center gap-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1">
+                <div className="relative h-48 overflow-hidden rounded-2xl shadow-lg h-80 sm:h-60">
+                  <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
+                    <StaticImage src="../images/swimmer.webp" />
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-medium tracking-tight text-slate-900">
+                    1. Facing Challenges
+                  </h3>
+                  <p className="mt-2 text-lg text-slate-600">
+                    Athlete's will learn how to cope with anxiety, nerves, or
+                    uncertainty that come with tryouts or upcoming competitive
+                    events.
+                  </p>
+                </div>
+              </li>
+              {/* Service 2 */}
+              <li className="grid auto-rows-min grid-cols-1 items-center gap-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1">
+                <div className="relative h-48 overflow-hidden rounded-2xl shadow-lg h-80 sm:h-60">
+                  <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
+                    <StaticImage src="../images/female-assault-ropes.webp" />
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-medium tracking-tight text-slate-900">
+                    2. Adopting Growth
+                  </h3>
+                  <p className="mt-2 text-lg text-slate-600">
+                    Athlete's will learn how to adopt a growth mindset and
+                    embrace challenge, risk, and pressure.
+                  </p>
+                </div>
+              </li>
+              {/* Service 3 */}
+              <li className="grid auto-rows-min grid-cols-1 items-center gap-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1">
+                <div className="relative h-48 overflow-hidden rounded-2xl shadow-lg h-80 sm:h-60">
+                  <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
+                    <StaticImage src="../images/runner-agility-ladder.webp" />
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-medium tracking-tight text-slate-900">
+                    3. Taking Action
+                  </h3>
+                  <p className="mt-2 text-lg text-slate-600">
+                    Athletes will learn actionable skills that they can use
+                    within and outside of the sport environment.
+                  </p>
+                </div>
+              </li>
+            </ol>
+          </div>
+
+          <div className="mx-auto md:max-w-2xl lg:max-w-7xl mt-16">
+            <h2 className="text-3xl font-medium tracking-tight text-slate-900">
+              Our primary therapeutic approaches:
+            </h2>
+            <ol className="grid grid-cols-1 gap-y-10 gap-x-8 lg:grid-cols-3 mt-8">
+              {/* Service 1 */}
+              <li className="grid auto-rows-min grid-cols-1 items-center gap-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1">
+                <div className="relative h-48 overflow-hidden rounded-2xl shadow-lg h-80 sm:h-60">
+                  <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
+                    <StaticImage src="../images/swimmer.webp" />
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-medium tracking-tight text-slate-900">
+                    Humanistic Therapy
+                  </h3>
+                  <p className="mt-2 text-lg text-slate-600">
+                    Support client self-discovery and realizing their own
+                    potential.
+                  </p>
+                </div>
+              </li>
+              {/* Service 2 */}
+              <li className="grid auto-rows-min grid-cols-1 items-center gap-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1">
+                <div className="relative h-48 overflow-hidden rounded-2xl shadow-lg h-80 sm:h-60">
+                  <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
+                    <StaticImage src="../images/female-assault-ropes.webp" />
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-medium tracking-tight text-slate-900">
+                    Cognitive-Behaviour Therapy
+                  </h3>
+                  <p className="mt-2 text-lg text-slate-600">
+                    Understanding how cognitions and thoughts impact outcomes.
+                  </p>
+                </div>
+              </li>
+              {/* Service 3 */}
+              <li className="grid auto-rows-min grid-cols-1 items-center gap-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1">
+                <div className="relative h-48 overflow-hidden rounded-2xl shadow-lg h-80 sm:h-60">
+                  <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
+                    <StaticImage src="../images/runner-agility-ladder.webp" />
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-medium tracking-tight text-slate-900">
+                    Solution-Focused Brief Therapy
+                  </h3>
+                  <p className="mt-2 text-lg text-slate-600">
+                    Providing clients tools and techniques that can be used
+                    immediately to manage problems or challenges.
+                  </p>
+                </div>
+              </li>
+            </ol>
+          </div>
+
           <div className="mx-auto mt-20">
             <StaticImage
               alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
@@ -81,67 +201,51 @@ const IndexPage = () => {
                 We offer virtual/in-person group and individual sessions.
                 Weekend workshops are also provided. Athletes can purchase
                 sessions on an individual or packaged basis. All services are
-                individualized to the athlete or team's specific needs. Here are
-                our three core concepts.
+                individualized to the athlete or team's specific needs.
               </p>
-            </div>            
+            </div>
           </div>
 
           <div className="mx-auto md:max-w-2xl lg:max-w-7xl mt-16">
-            <ol className="grid grid-cols-1 gap-y-10 gap-x-8 lg:grid-cols-3">
-              {/* Service 1 */}
-              <li className="grid auto-rows-min grid-cols-1 items-center gap-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1">
-                <div className="relative h-48 overflow-hidden rounded-2xl shadow-lg h-80 sm:h-60">
-                  <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
-                    <StaticImage src="../images/swimmer.webp" />
-                  </div>
-                </div>
-                <div>
-                  <h3 className="text-2xl font-medium tracking-tight text-slate-900">
-                    Facing Challenges
+            <div className="grid bg-slate-50 sm:px-6 sm:pb-16 md:grid-cols-2 rounded-2xl md:px-8 md:pt-16 lg:p-20">
+              <div className="relative px-4 py-16 rounded-2xl sm:px-10 md:py-12 lg:px-12">
+                <div className="relative flex flex-col">
+                  <h3 className="mt-7 text-6xl font-semibold text-slate-900">
+                    1-on-1
                   </h3>
-                  <p className="mt-2 text-lg text-slate-600">
-                    Athlete's will learn how to cope with anxiety, nerves, or
-                    uncertainty that come with tryouts or upcoming competitive
-                    events.
+                  <p className="mt-7 text-lg tracking-tight text-slate-600">
+                    Services individualized to each client based upon their
+                    presenting problem. 1-on-1 sessions take place virtually
+                    through Google Meet.
                   </p>
+                  <a
+                    className="inline-flex justify-center rounded-full py-3 px-5 text-base font-semibold tracking-tight shadow-sm focus:outline-none bg-slate-900 text-white hover:bg-slate-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-900 active:bg-slate-700 active:text-white/80 disabled:opacity-30 disabled:hover:bg-slate-900 mt-8"
+                    href="mailto:tyler@tcmperformance.ca"
+                  >
+                    Book consultation
+                  </a>
                 </div>
-              </li>
-              {/* Service 2 */}
-              <li className="grid auto-rows-min grid-cols-1 items-center gap-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1">
-                <div className="relative h-48 overflow-hidden rounded-2xl shadow-lg h-80 sm:h-60">
-                  <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
-                    <StaticImage src="../images/female-assault-ropes.webp" />
-                  </div>
-                </div>
-                <div>
-                  <h3 className="text-2xl font-medium tracking-tight text-slate-900">
-                    Adopting Growth
+              </div>
+
+              <div className="relative px-4 py-16 rounded-2xl sm:px-10 md:py-12 lg:px-12 bg-orange-500 sm:shadow-lg">
+                <div className="relative flex flex-col">
+                  <h3 className="mt-7 text-6xl font-semibold text-white">
+                    Group
                   </h3>
-                  <p className="mt-2 text-lg text-slate-600">
-                    Athlete's will learn how to adopt a growth mindset and
-                    embrace challenge, risk, and pressure.
+                  <p className="mt-7 text-lg tracking-tight text-white">
+                    Larger groups and workshops focused primarily on teaching
+                    mental skills and their application within the sport
+                    environment.
                   </p>
+                  <a
+                    className="inline-flex justify-center rounded-full py-3 px-5 text-base font-semibold tracking-tight shadow-sm focus:outline-none bg-white text-orange-500 hover:text-orange-500 focus-visible:text-orange-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white active:bg-orange-500 active:text-blue-900/80 disabled:opacity-40 disabled:hover:text-orange-500 mt-8"
+                    href="mailto:tyler@tcmperformance.ca"
+                  >
+                    Book consultation
+                  </a>
                 </div>
-              </li>
-              {/* Service 3 */}
-              <li className="grid auto-rows-min grid-cols-1 items-center gap-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1">
-                <div className="relative h-48 overflow-hidden rounded-2xl shadow-lg h-80 sm:h-60">
-                  <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
-                    <StaticImage src="../images/runner-agility-ladder.webp" />
-                  </div>
-                </div>
-                <div>
-                  <h3 className="text-2xl font-medium tracking-tight text-slate-900">
-                    Taking Action
-                  </h3>
-                  <p className="mt-2 text-lg text-slate-600">
-                    Athletes will learn actionable skills that they can use
-                    within and outside of the sport environment.
-                  </p>
-                </div>
-              </li>
-            </ol>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -157,10 +261,10 @@ const IndexPage = () => {
           <div className="mt-16 sm:mt-20">
             <div className="md:border-zinc-100">
               <div className="flex flex-col space-y-8">
-                <figure className="md:grid md:grid-cols-3 md:items-baseline border-solid border-2 rounded-2xl p-8">
+                <figure className="md:grid md:grid-cols-3 md:items-baseline bg-black rounded-2xl p-8">
                   <figcaption className="group relative flex items-start">
                     <div>
-                      <div className="font-medium text-xl text-slate-800">
+                      <div className="font-medium text-2xl text-white">
                         Lukas, 17
                       </div>
                       <div className="mt-1 uppercase text-base text-orange-500">
@@ -168,7 +272,7 @@ const IndexPage = () => {
                       </div>
                     </div>
                   </figcaption>
-                  <blockquote className="md:block relative md:col-span-2 mb-3 mt-4 md:mt-0 flex items-center text-lg text-slate-800">
+                  <blockquote className="md:block relative md:col-span-2 mb-3 mt-4 md:mt-0 flex items-center text-lg text-white">
                     "Working with Tyler has really increased my overall
                     performance on the ice, I have been working with him for a
                     couple years now and I learn something new every time we
@@ -180,10 +284,10 @@ const IndexPage = () => {
                   </blockquote>
                 </figure>
 
-                <figure className="md:grid md:grid-cols-3 md:items-baseline border-solid border-2 rounded-2xl p-8">
+                <figure className="md:grid md:grid-cols-3 md:items-baseline bg-black rounded-2xl p-8">
                   <figcaption className="group relative flex items-start">
                     <div>
-                      <div className="font-medium text-xl text-slate-800">
+                      <div className="font-medium text-2xl text-white">
                         Carla, 38
                       </div>
                       <div className="mt-1 uppercase text-base text-orange-500">
@@ -191,7 +295,7 @@ const IndexPage = () => {
                       </div>
                     </div>
                   </figcaption>
-                  <blockquote className="md:block relative md:col-span-2 mb-3 mt-4 md:mt-0 flex items-center text-lg text-slate-800">
+                  <blockquote className="md:block relative md:col-span-2 mb-3 mt-4 md:mt-0 flex items-center text-lg text-white">
                     "When I started working with Tyler I was facing some serious
                     mental challenges that were preventing me to reach my full
                     athletic potential. I didn’t have the tools to channel my
@@ -206,10 +310,10 @@ const IndexPage = () => {
                   </blockquote>
                 </figure>
 
-                <figure className="md:grid md:grid-cols-3 md:items-baseline border-solid border-2 rounded-2xl p-8">
+                <figure className="md:grid md:grid-cols-3 md:items-baseline bg-black rounded-2xl p-8">
                   <figcaption className="group relative flex items-start">
                     <div>
-                      <div className="font-medium text-xl text-slate-800">
+                      <div className="font-medium text-2xl text-white">
                         Runel, 28
                       </div>
                       <div className="mt-1 uppercase text-base text-orange-500">
@@ -217,15 +321,15 @@ const IndexPage = () => {
                       </div>
                     </div>
                   </figcaption>
-                  <blockquote className="md:block relative md:col-span-2 mb-3 mt-4 md:mt-0 flex items-center text-lg text-slate-800">
-                    "During my sessions with Tyler we dove into why I might be in
-                    my head for my lifts. Tyler taught me some exercises to do
-                    after our sessions that ultimately helped me get out of my
-                    head and to trust myself and capabilities more. I ended up
-                    winning gold and tying a provincial record for the clean and
-                    jerk. I am not currently training for a meet, but once I am
-                    ready to compete again, I will definitely be running back to
-                    Tyler"
+                  <blockquote className="md:block relative md:col-span-2 mb-3 mt-4 md:mt-0 flex items-center text-lg text-white">
+                    "During my sessions with Tyler we dove into why I might be
+                    in my head for my lifts. Tyler taught me some exercises to
+                    do after our sessions that ultimately helped me get out of
+                    my head and to trust myself and capabilities more. I ended
+                    up winning gold and tying a provincial record for the clean
+                    and jerk. I am not currently training for a meet, but once I
+                    am ready to compete again, I will definitely be running back
+                    to Tyler"
                   </blockquote>
                 </figure>
               </div>
@@ -241,14 +345,12 @@ const IndexPage = () => {
             <h2 className="text-6xl font-bold tracking-tight text-white">
               Are you mentally prepared?
             </h2>
-            <p className="mt-4 text-lg text-gray-300">
+            <p className="mt-4 text-lg text-white">
               Get a step ahead of your competition.
             </p>
             <a
-              className="group inline-flex items-center justify-center rounded-full py-3 px-5 text-base font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-orange-500 text-white hover:bg-zinc-600 active:bg-zinc-800 active:text-zinc-100 focus-visible:outline-white mt-10"
-              href="https://calendly.com/tcmperformance/tcm-performance-coaching"
-              target="_blank"
-              rel="noreferrer"
+              className="group inline-flex items-center justify-center rounded-full py-3 px-5 text-base font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-white text-black hover:bg-zinc-200 active:bg-zinc-800 active:text-zinc-100 focus-visible:outline-white mt-10"
+              href="mailto:tyler@tcmperformance.ca"
             >
               Book a consultation
             </a>

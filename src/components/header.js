@@ -17,9 +17,9 @@ function Header() {
 
   return (
     <header className="sticky top-0 z-40">      
-      <div className="flex bg-white flex-wrap items-center justify-between w-screen mx-auto px-4 sm:px-6 lg:px-8 py-4 shadow-md">
+      <div className="flex bg-white flex-wrap items-center justify-between w-screen mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <Link to="/">        
-          <StaticImage alt={data.site.siteMetadata.title} src="../images/logo-tcm-black.png" className="w-20"/>
+          <StaticImage alt={data.site.siteMetadata.title} src="../images/logo-tcm-white.webp" className="w-40"/>
         </Link>
 
         <button
@@ -60,12 +60,10 @@ function Header() {
             </Link>
           ))}
           <a
-            className="block md:inline-block mt-4 md:mt-0 md:ml-6 no-underline py-3 px-5 rounded-full font-semibold outline-2 outline-offset-2 transition-colors text-zinc-100 bg-orange-500 hover:bg-zinc-600 active:bg-zinc-800 active:text-zinc-100"
-            href="https://calendly.com/tcmperformance/tcm-performance-coaching"
-            target="_blank"
-            rel="noreferrer"    
+            className="block md:inline-block mt-4 md:mt-0 md:ml-6 no-underline py-3 px-5 rounded-full font-semibold outline-2 outline-offset-2 transition-colors text-zinc-100 bg-black hover:bg-zinc-600 active:bg-zinc-800 active:text-zinc-100"
+            href="mailto:tyler@tcmperformance.ca"    
           >
-            Train me
+            Book consultation
           </a>
         </nav>
       </div>

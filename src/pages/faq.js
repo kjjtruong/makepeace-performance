@@ -71,16 +71,7 @@ const FaqPage = () => {
                     support of a mental performance consultant may be right for
                     you.
                   </p>
-                </li>
-                <li>
-                  <h3 className="text-lg font-semibold leading-6 text-slate-900">
-                    Can I purchase sessions using my benefits?
-                  </h3>
-                  <p className="mt-4 text-base text-slate-600">
-                    Unfortunately, since I am not a registered psychologist you
-                    cannot purchase sessions using benefit coverage.
-                  </p>
-                </li>
+                </li>                
                 <li>
                   <h3 className="text-lg font-semibold leading-6 text-slate-900">
                     How long do individual sessions generally last for?
