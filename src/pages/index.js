@@ -35,7 +35,7 @@ const IndexPage = () => {
       </div>
 
       <StaticImage
-        alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+        alt="Female weightlifter doing barbell shouulder presses"
         src="../images/runel.webp"
       />
 
@@ -68,9 +68,9 @@ const IndexPage = () => {
             <ol className="grid grid-cols-1 gap-y-10 gap-x-8 lg:grid-cols-3 mt-8">
               {/* Service 1 */}
               <li className="grid auto-rows-min grid-cols-1 items-center gap-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1">
-                <div className="relative h-48 overflow-hidden rounded-2xl shadow-lg h-80 sm:h-60">
+                <div className="relative h-48 overflow-hidden rounded-2xl h-80 sm:h-60">
                   <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
-                    <StaticImage src="../images/swimmer.webp" />
+                    <StaticImage alt="Lane swimmer looking onto an emptry swimming pool" src="../images/swimmer.webp" />
                   </div>
                 </div>
                 <div>
@@ -86,9 +86,9 @@ const IndexPage = () => {
               </li>
               {/* Service 2 */}
               <li className="grid auto-rows-min grid-cols-1 items-center gap-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1">
-                <div className="relative h-48 overflow-hidden rounded-2xl shadow-lg h-80 sm:h-60">
+                <div className="relative h-48 overflow-hidden rounded-2xl h-80 sm:h-60">
                   <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
-                    <StaticImage src="../images/female-assault-ropes.webp" />
+                    <StaticImage alt="Female crossfitter using the assault ropes" src="../images/female-assault-ropes.webp" />
                   </div>
                 </div>
                 <div>
@@ -103,9 +103,9 @@ const IndexPage = () => {
               </li>
               {/* Service 3 */}
               <li className="grid auto-rows-min grid-cols-1 items-center gap-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1">
-                <div className="relative h-48 overflow-hidden rounded-2xl shadow-lg h-80 sm:h-60">
+                <div className="relative h-48 overflow-hidden rounded-2xl h-80 sm:h-60">
                   <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
-                    <StaticImage src="../images/runner-agility-ladder.webp" />
+                    <StaticImage alt="Soccer player training outdoors with the agility ladder" src="../images/runner-agility-ladder.webp" />
                   </div>
                 </div>
                 <div>
@@ -128,9 +128,9 @@ const IndexPage = () => {
             <ol className="grid grid-cols-1 gap-y-10 gap-x-8 lg:grid-cols-3 mt-8">
               {/* Service 1 */}
               <li className="grid auto-rows-min grid-cols-1 items-center gap-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1">
-                <div className="relative h-48 overflow-hidden rounded-2xl shadow-lg h-80 sm:h-60">
+                <div className="relative h-48 overflow-hidden rounded-2xl h-80 sm:h-60">
                   <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
-                    <StaticImage src="../images/swimmer.webp" />
+                    <StaticImage alt="Coach working with hockey goalie during practice" src="../images/coach-goalie-pucks.webp" />
                   </div>
                 </div>
                 <div>
@@ -145,9 +145,9 @@ const IndexPage = () => {
               </li>
               {/* Service 2 */}
               <li className="grid auto-rows-min grid-cols-1 items-center gap-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1">
-                <div className="relative h-48 overflow-hidden rounded-2xl shadow-lg h-80 sm:h-60">
+                <div className="relative h-48 overflow-hidden rounded-2xl h-80 sm:h-60">
                   <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
-                    <StaticImage src="../images/female-assault-ropes.webp" />
+                    <StaticImage alt="Hockey goalie looking out onto an empty rink while stretching" src="../images/goalie-focus.webp" />
                   </div>
                 </div>
                 <div>
@@ -161,9 +161,9 @@ const IndexPage = () => {
               </li>
               {/* Service 3 */}
               <li className="grid auto-rows-min grid-cols-1 items-center gap-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1">
-                <div className="relative h-48 overflow-hidden rounded-2xl shadow-lg h-80 sm:h-60">
+                <div className="relative h-48 overflow-hidden rounded-2xl h-80 sm:h-60">
                   <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
-                    <StaticImage src="../images/runner-agility-ladder.webp" />
+                    <StaticImage alt="Hockey goalie crouching and focused during a game" src="../images/goalie-focus-game.webp" />
                   </div>
                 </div>
                 <div>
@@ -181,8 +181,8 @@ const IndexPage = () => {
 
           <div className="mx-auto mt-20">
             <StaticImage
-              alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-              src="../images/runner.webp"
+              alt="Trail runner going uphill with a mountain in the backdrop"
+              src="../images/runner-mountain-background.webp"
               className="rounded-2xl"
             />
           </div>
@@ -200,7 +200,10 @@ const IndexPage = () => {
               <p className="mt-6 text-lg text-slate-600">
                 We offer virtual/in-person group and individual sessions.
                 Weekend workshops are also provided. Athletes can purchase
-                sessions on an individual or packaged basis. All services are
+                sessions on an individual or packaged basis.
+              </p>
+              <p className="mt-6 text-lg text-slate-600">
+                *All services are
                 individualized to the athlete or team's specific needs.
               </p>
             </div>
