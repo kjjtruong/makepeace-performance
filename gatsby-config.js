@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Makepeace Performance`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `TCM Performance`,
+    siteUrl: `https://tcmperformance.ca`,
   },
   plugins: [
     "gatsby-plugin-image",
