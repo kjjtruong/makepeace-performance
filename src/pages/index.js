@@ -230,7 +230,7 @@ const IndexPage = () => {
                 </div>
               </div>
 
-              <div className="relative px-4 py-16 rounded-2xl sm:px-10 md:py-12 lg:px-12 bg-orange-500 sm:shadow-lg">
+              <div className="relative px-4 py-16 rounded-2xl sm:px-10 md:py-12 lg:px-12 bg-black sm:shadow-lg">
                 <div className="relative flex flex-col">
                   <h3 className="mt-7 text-6xl font-semibold text-white">
                     Group
@@ -241,7 +241,7 @@ const IndexPage = () => {
                     environment.
                   </p>
                   <a
-                    className="inline-flex justify-center rounded-full py-3 px-5 text-base font-semibold tracking-tight shadow-sm focus:outline-none bg-white text-orange-500 hover:text-orange-500 focus-visible:text-orange-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white active:bg-orange-500 active:text-blue-900/80 disabled:opacity-40 disabled:hover:text-orange-500 mt-8"
+                    className="inline-flex justify-center rounded-full py-3 px-5 text-base font-semibold tracking-tight shadow-sm focus:outline-none bg-white text-black hover:text-black focus-visible:text-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white active:bg-white active:text-black disabled:opacity-40 disabled:hover:text-black mt-8"
                     href="mailto:tyler@tcmperformance.ca"
                   >
                     Book consultation
@@ -268,7 +268,7 @@ const IndexPage = () => {
                   <figcaption className="group relative flex items-start">
                     <div>
                       <div className="font-medium text-2xl text-white">
-                        Lukas, 17
+                        Lukas, 18
                       </div>
                       <div className="mt-1 uppercase text-base text-orange-500">
                         Hockey
@@ -340,7 +340,7 @@ const IndexPage = () => {
                   <figcaption className="group relative flex items-start">
                     <div>
                       <div className="font-medium text-2xl text-white">
-                        Joe, 19
+                        Josh, 19
                       </div>
                       <div className="mt-1 uppercase text-base text-orange-500">
                         Hockey
