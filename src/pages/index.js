@@ -14,7 +14,7 @@ const IndexPage = () => {
           <div className="">
             <div className="relative z-10 mx-auto lg:col-span-7 lg:max-w-none lg:pt-6">
               <h1 className="uppercase text-7xl font-extrabold tracking-tight text-zinc-800 xs:text-5xl">
-                A weak mind equals a weak body. A strong mind equals power
+                A strong mind equals power
                 beyond limits.
               </h1>
               <p className="mt-6 text-lg text-slate-600">
@@ -129,8 +129,8 @@ const IndexPage = () => {
               {/* Service 1 */}
               <li className="grid auto-rows-min grid-cols-1 items-center gap-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1">
                 <div className="relative h-48 overflow-hidden rounded-2xl h-80 sm:h-60">
-                  <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
-                    <StaticImage alt="Coach working with hockey goalie during practice" src="../images/coach-goalie-pucks.webp" />
+                  <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)] object-cover w-100 h-100">
+                    <StaticImage alt="Coach working with hockey goalie during practice" src="../images/coach-goalie-pucks.webp" className="object-cover w-100 h-100" />
                   </div>
                 </div>
                 <div>
@@ -333,6 +333,22 @@ const IndexPage = () => {
                     and jerk. I am not currently training for a meet, but once I
                     am ready to compete again, I will definitely be running back
                     to Tyler"
+                  </blockquote>
+                </figure>
+
+                <figure className="md:grid md:grid-cols-3 md:items-baseline bg-black rounded-2xl p-8">
+                  <figcaption className="group relative flex items-start">
+                    <div>
+                      <div className="font-medium text-2xl text-white">
+                        Joe, 19
+                      </div>
+                      <div className="mt-1 uppercase text-base text-orange-500">
+                        Hockey
+                      </div>
+                    </div>
+                  </figcaption>
+                  <blockquote className="md:block relative md:col-span-2 mb-3 mt-4 md:mt-0 flex items-center text-lg text-white">
+                    "Talking with Tyler has given me a chance to be able to open up and express my feelings about myself. I have struggled with asking for help, but when I chose to begin working with Tyler I was really happy I did. He provides me lots of tools and exercises that build my confidence or to help me relax. He is a good listener when I have lots to say and sometimes even helps me to express feelings I may not really understand how to say aloud"
                   </blockquote>
                 </figure>
               </div>
