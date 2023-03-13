@@ -29,7 +29,7 @@ const FaqPage = () => {
                   <h3 className="text-lg font-semibold leading-6 text-slate-900">
                     What is a “mental performance consultant?”
                   </h3>
-                  <p className="mt-4 text-base text-slate-600">
+                  <p className="mt-4 text-lg text-slate-600">
                     Definition of Mental Performance Consultant, as defined by
                     the Canadian Sport Psychology Association: &quot;Mental
                     Performance Consultant&#39;s (MPC) are extensively trained
@@ -40,7 +40,7 @@ const FaqPage = () => {
                     sport performance and well-being related issues. They do not
                     diagnose or treat mental health issues.&quot;
                   </p>
-                  <p className="mt-4 text-base text-slate-600">
+                  <p className="mt-4 text-lg text-slate-600">
                     It&#39;s important to utilize CSPA members because of the
                     requirements and review process that occurs to obtain
                     membership. MPCs provide consultations geared towards
@@ -48,9 +48,9 @@ const FaqPage = () => {
                     not diagnose or treat mental health issues and are not
                     covered by extended medical plans.
                   </p>
-                  <p className="mt-4 text-base text-slate-600">
+                  <p className="mt-4 text-lg text-slate-600">
                     For more information about MPCs and the CSPA, please visit
-                    https://www.cspa-acps.com/
+                    <a href="https://www.cspa-acps.com/" target="_blank" rel="noopener noreferrer">https://www.cspa-acps.com/</a>
                   </p>
                 </li>
               </ul>
@@ -63,7 +63,7 @@ const FaqPage = () => {
                     Are athletes the only ones who can benefit from a mental
                     performance consultant?
                   </h3>
-                  <p className="mt-4 text-base text-slate-600">
+                  <p className="mt-4 text-lg text-slate-600">
                     The answer is simple: No. Anyone working in
                     performance-related realms can benefit from performance
                     psychology and mental skills training. If you are evaluated
@@ -76,7 +76,7 @@ const FaqPage = () => {
                   <h3 className="text-lg font-semibold leading-6 text-slate-900">
                     How long do individual sessions generally last for?
                   </h3>
-                  <p className="mt-4 text-base text-slate-600">
+                  <p className="mt-4 text-lg text-slate-600">
                     Sessions generally last between 50-60 minutes in length.
                   </p>
                 </li>
@@ -90,7 +90,7 @@ const FaqPage = () => {
                     What is the difference between my work as an MPC and a
                     clinical psychologist or “sports psychologist?”
                   </h3>
-                  <p className="mt-4 text-base text-slate-600">
+                  <p className="mt-4 text-lg text-slate-600">
                     I am extensively trained in performance psychology and
                     mental skills training. My work with clients is primarily
                     related to performance enhancement and optimizing individual
