@@ -62,7 +62,7 @@ const IndexPage = () => {
           </div>
 
           <div className="mx-auto md:max-w-2xl lg:max-w-7xl mt-16">
-            <h2 className="text-3xl font-medium tracking-tight text-slate-900">
+            <h2 className="text-3xl font-medium tracking-tight text-zinc-800">
               Our three core steps:
             </h2>
             <ol className="grid grid-cols-1 gap-y-10 gap-x-8 lg:grid-cols-3 mt-8">
@@ -74,7 +74,7 @@ const IndexPage = () => {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-medium tracking-tight text-slate-900">
+                  <h3 className="text-2xl font-medium tracking-tight text-zinc-800">
                     1. Facing Challenges
                   </h3>
                   <p className="mt-2 text-lg text-slate-600">
@@ -92,7 +92,7 @@ const IndexPage = () => {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-medium tracking-tight text-slate-900">
+                  <h3 className="text-2xl font-medium tracking-tight text-zinc-800">
                     2. Adopting Growth
                   </h3>
                   <p className="mt-2 text-lg text-slate-600">
@@ -109,7 +109,7 @@ const IndexPage = () => {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-medium tracking-tight text-slate-900">
+                  <h3 className="text-2xl font-medium tracking-tight text-zinc-800">
                     3. Taking Action
                   </h3>
                   <p className="mt-2 text-lg text-slate-600">
@@ -134,7 +134,7 @@ const IndexPage = () => {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-medium tracking-tight text-slate-900">
+                  <h3 className="text-2xl font-medium tracking-tight text-zinc-800">
                     Humanistic Therapy
                   </h3>
                   <p className="mt-2 text-lg text-slate-600">
@@ -151,7 +151,7 @@ const IndexPage = () => {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-medium tracking-tight text-slate-900">
+                  <h3 className="text-2xl font-medium tracking-tight text-zinc-800">
                     Cognitive-Behaviour Therapy
                   </h3>
                   <p className="mt-2 text-lg text-slate-600">
@@ -167,7 +167,7 @@ const IndexPage = () => {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-medium tracking-tight text-slate-900">
+                  <h3 className="text-2xl font-medium tracking-tight text-zinc-800">
                     Solution-Focused Brief Therapy
                   </h3>
                   <p className="mt-2 text-lg text-slate-600">
@@ -213,7 +213,7 @@ const IndexPage = () => {
             <div className="grid bg-slate-50 sm:px-6 sm:pb-16 md:grid-cols-2 rounded-2xl md:px-8 md:pt-16 lg:p-20">
               <div className="relative px-4 py-16 rounded-2xl sm:px-10 md:py-12 lg:px-12">
                 <div className="relative flex flex-col">
-                  <h3 className="mt-7 text-6xl font-semibold text-slate-900">
+                  <h3 className="mt-7 text-6xl font-semibold text-zinc-800">
                     1-on-1
                   </h3>
                   <p className="mt-7 text-lg tracking-tight text-slate-600">
@@ -381,7 +381,7 @@ const IndexPage = () => {
 };
 
 // You'll learn about this in the next task, just copy it for now
-export const Head = () => <Seo title="Home Page" />;
+export const Head = () => <Seo title="Home" />;
 
 // Step 3: Export your component
 export default IndexPage;

@@ -14,11 +14,12 @@ const FaqPage = () => {
             <p className="mt-6 text-lg text-slate-600">
               If you have anything else you want to ask,{" "}
               <a
-                className="text-slate-900 underline"
-                href="mailto:tyler.c.makepeace@gmail.com"
+                className="transition hover:text-orange-500 underline underline-offset-4"
+                href="mailto:tyler@tcmperformance.ca"
               >
                 reach out to us
               </a>
+              .
             </p>
           </div>
 
@@ -26,7 +27,7 @@ const FaqPage = () => {
             <li>
               <ul className="space-y-10">
                 <li>
-                  <h3 className="text-lg font-semibold leading-6 text-slate-900">
+                  <h3 className="text-lg font-semibold leading-6 text-zinc-800">
                     What is a “mental performance consultant?”
                   </h3>
                   <p className="mt-4 text-lg text-slate-600">
@@ -49,8 +50,8 @@ const FaqPage = () => {
                     covered by extended medical plans.
                   </p>
                   <p className="mt-4 text-lg text-slate-600">
-                    For more information about MPCs and the CSPA, please visit
-                    <a href="https://www.cspa-acps.com/" target="_blank" rel="noopener noreferrer">https://www.cspa-acps.com/</a>
+                    For more information about MPCs and the CSPA, please visit {" "}
+                    <a className="transition hover:text-orange-500 underline underline-offset-4" href="https://www.cspa-acps.com/" target="_blank" rel="noopener noreferrer">https://www.cspa-acps.com/</a>
                   </p>
                 </li>
               </ul>
@@ -59,7 +60,7 @@ const FaqPage = () => {
             <li>
               <ul className="space-y-10">
                 <li>
-                  <h3 className="text-lg font-semibold leading-6 text-slate-900">
+                  <h3 className="text-lg font-semibold leading-6 text-zinc-800">
                     Are athletes the only ones who can benefit from a mental
                     performance consultant?
                   </h3>
@@ -73,7 +74,7 @@ const FaqPage = () => {
                   </p>
                 </li>                
                 <li>
-                  <h3 className="text-lg font-semibold leading-6 text-slate-900">
+                  <h3 className="text-lg font-semibold leading-6 text-zinc-800">
                     How long do individual sessions generally last for?
                   </h3>
                   <p className="mt-4 text-lg text-slate-600">
@@ -86,7 +87,7 @@ const FaqPage = () => {
             <li>
               <ul className="space-y-10">
                 <li>
-                  <h3 className="text-lg font-semibold leading-6 text-slate-900">
+                  <h3 className="text-lg font-semibold leading-6 text-zinc-800">
                     What is the difference between my work as an MPC and a
                     clinical psychologist or “sports psychologist?”
                   </h3>
