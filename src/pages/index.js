@@ -50,7 +50,7 @@ const IndexPage = () => {
               Physical preparation can only take athletes so far. If athlete's
               aren't mentally prepared for the obstacles and challenges that lie
               ahead, their true potential will never be reached. It
-              doesn'tmatter if they are a recreational or high level competitive
+              doesn't matter if they are a recreational or high level competitive
               athlete, only once their mind is unlocked can they achieve their
               full potential.
             </p>
