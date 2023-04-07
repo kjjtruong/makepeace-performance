@@ -17,7 +17,7 @@ function Header() {
 
   return (
     <header className="sticky top-0 z-40">      
-      <div className="flex bg-white flex-wrap items-center justify-between w-screen mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <div className="flex bg-offwhite flex-wrap items-center justify-between w-screen mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <Link to="/">        
           <StaticImage alt={data.site.siteMetadata.title} src="../images/logo-tcm-white.webp" className="w-40"/>
         </Link>

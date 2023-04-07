@@ -7,7 +7,7 @@ const AboutPage = () => {
   return (
     <Layout pageTitle="About">
       {/* About */}
-      <section className="pt-20 sm:pt-32">
+      <section className="bg-offwhite pt-20 sm:pt-32">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
             <h2 className="text-6xl font-bold tracking-tight text-zinc-800">
@@ -36,7 +36,7 @@ const AboutPage = () => {
       </section>
 
       {/* Coaches */}
-      <section className="pt-20 sm:pt-32">
+      <section className="bg-offwhite pt-20 sm:pt-32">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
             <h2 className="text-6xl font-bold tracking-tight text-zinc-800">

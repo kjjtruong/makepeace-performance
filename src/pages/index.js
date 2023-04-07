@@ -9,7 +9,7 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="Home Page">
       {/* Hero */}
-      <div className="overflow-hidden py-20">
+      <div className="overflow-hidden bg-offwhite py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="">
             <div className="relative z-10 mx-auto lg:col-span-7 lg:max-w-none lg:pt-6">
@@ -40,7 +40,7 @@ const IndexPage = () => {
       />
 
       {/* Mission */}
-      <section className="pt-20 sm:pt-32">
+      <section className="bg-offwhite pt-20 sm:pt-32">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
             <h2 className="text-6xl font-bold tracking-tight text-zinc-800">
@@ -190,7 +190,7 @@ const IndexPage = () => {
       </section>
 
       {/* Services */}
-      <section className="pt-20 sm:pt-32">
+      <section className="bg-offwhite pt-20 sm:pt-32">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto md:grid md:grid-cols-3">
             <div className="md:col-start-2 md:col-span-2">
@@ -254,7 +254,7 @@ const IndexPage = () => {
       </section>
 
       {/* Testimonial 1 */}
-      <section className="pt-20 pb-16 sm:pt-32 sm:pb-24">
+      <section className="bg-offwhite pt-20 pb-16 sm:pt-32 sm:pb-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
             <h2 className="text-6xl font-bold tracking-tight text-zinc-800">
