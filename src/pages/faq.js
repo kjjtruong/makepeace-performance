@@ -78,7 +78,7 @@ const FaqPage = () => {
                     How long do individual sessions generally last for?
                   </h3>
                   <p className="mt-4 text-lg text-slate-600">
-                    Sessions generally last between 50-60 minutes in length.
+                    Sessions last between 50-60 minutes in length.
                   </p>
                 </li>
               </ul>
@@ -88,7 +88,7 @@ const FaqPage = () => {
               <ul className="space-y-10">
                 <li>
                   <h3 className="text-lg font-semibold leading-6 text-zinc-800">
-                    What is the difference between my work as an MPC and a
+                    What is the difference between an MPC and a
                     clinical psychologist or “sports psychologist?”
                   </h3>
                   <p className="mt-4 text-lg text-slate-600">

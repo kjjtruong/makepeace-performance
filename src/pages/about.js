@@ -16,13 +16,16 @@ const AboutPage = () => {
             <p className="mt-6 text-lg text-slate-600">
               TCM Performance specializes in performance services that can aid
               athletes, performers, and business professionals reach performance
-              excellence. We've been providing mental skills training and
-              performance consultation since 2020. With the immense pressure
-              that comes with performing in high performance environments,
-              performers require skills that will enable them to perform at
-              their best. TCM Performance is dedicated to providing clients the
-              necessary tools that will contribute to positive behaviour change
-              and personal/professional success.
+              excellence. With the immense pressure that comes with performing
+              in high performance environments, performers require skills that
+              will enable them to perform at their best. TCM Performance is
+              dedicated to providing clients the necessary tools that will
+              contribute to personal success.
+            </p>
+            <p className="mt-6 text-lg text-slate-600">
+              Our mission is to provide resources and services to athletes and high performers
+              that enable optimal performance and well-being, both within and
+              outside of sport.
             </p>
           </div>
           <div className="mx-auto mt-20">
@@ -31,6 +34,56 @@ const AboutPage = () => {
               src="../images/runner.webp"
               className="rounded-2xl"
             />
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-offwhite pt-20 sm:pt-32">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto md:grid md:grid-cols-3">
+            <div className="md:col-start-2 md:col-span-2">
+              <h2 className="mt-6 text-6xl font-bold tracking-tight text-zinc-800 sm:base">
+                Our Consulting Philosophy.
+              </h2>
+              <div className="mt-6 space-y-7 text-lg text-slate-600">
+                <ol className="list-decimal list-inside leading-loose">
+                  <li>
+                    <span className="font-bold underline underline-offset-4 decoration-4">
+                      The Person Comes First:
+                    </span>{" "}
+                    At the heart of what we do, the performer always comes
+                    first.
+                  </li>
+                  <li>
+                    <span className="font-bold underline underline-offset-4 decoration-4">
+                      Integrity:
+                    </span>{" "}
+                    We work with integrity to deliver high quality services
+                  </li>
+                  <li>
+                    <span className="font-bold underline underline-offset-4 decoration-4">
+                      Safety &amp; Trust:
+                    </span>{" "}
+                    We strive to foster a safe, trusting environment.
+                  </li>
+                  <li>
+                    <span className="font-bold underline underline-offset-4 decoration-4">
+                      Collaboration:
+                    </span>{" "}
+                    Practitioners and performers work together to find best
+                    practices and
+                  </li>
+                  solutions.
+                  <li>
+                    <span className="font-bold underline underline-offset-4 decoration-4">
+                      Individuality:
+                    </span>{" "}
+                    Every performer is different, which requires different
+                    approaches to consultation.
+                  </li>
+                </ol>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -62,20 +115,23 @@ const AboutPage = () => {
               </h4>
               <div className="mt-6 space-y-7 text-lg text-slate-600">
                 <p>
-                  Tyler Makepeace is a graduate from the University of Ottawa
-                  where he received his Master of Arts in Human Kinetics,
-                  specializing in sport and exercise psychology.
+                  Tyler Makepeace is a mental performance consultant
+                  &#40;provisional&#41; and member of the Canadian Sport
+                  Psychology Association. He received his Master of Arts in
+                  Human Kinetics, specializing in sport and exercise psychology
+                  from the University of Ottawa. Tyler&#39;s practice expands
+                  Western Canada including athletes competing in the Western
+                  Hockey League, British Columbia Hockey League, Alberta Junior
+                  Hockey League, and Canadian Separate School Hockey League. He
+                  has given workshops and webinars to clubs and associations
+                  exploring the impact the mental game has on performance and
+                  excellence and is currently affiliated with the Canadian Sport
+                  Institute - Calgary. Tyler continues to follow his passion for
+                  research, which includes translating research into practice.
                 </p>
                 <p>
-                  He is currently a member of the Canadian Sport Psychology
-                  Association. Tyler's work has expanded several different
-                  sports, including: Cycling, ultra-marathon, weightlifting,
-                  hockey, baseball, and golf.
-                </p>
-                <p>
-                  He also writes a weekly newsletter focused on enhancing
-                  personal wellness and striving for excellence called "Tyler
-                  Talks", which can be found on his Substack page.
+                  Tyler calls Calgary, AB home and enjoys spending his free time
+                  with his partner, Meagan, and their dog, Louie.
                 </p>
                 <div>
                   <h4 className="text-base font-bold tracking-tight text-zinc-800">
