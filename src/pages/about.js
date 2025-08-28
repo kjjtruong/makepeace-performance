@@ -115,19 +115,7 @@ const AboutPage = () => {
               </h4>
               <div className="mt-6 space-y-7 text-lg text-slate-600">
                 <p>
-                  Tyler Makepeace is a mental performance consultant
-                  &#40;provisional&#41; and member of the Canadian Sport
-                  Psychology Association. He received his Master of Arts in
-                  Human Kinetics, specializing in sport and exercise psychology
-                  from the University of Ottawa. Tyler&#39;s practice expands
-                  Western Canada including athletes competing in the Western
-                  Hockey League, British Columbia Hockey League, Alberta Junior
-                  Hockey League, and Canadian Separate School Hockey League. He
-                  has given workshops and webinars to clubs and associations
-                  exploring the impact the mental game has on performance and
-                  excellence and is currently affiliated with the Canadian Sport
-                  Institute - Calgary. Tyler continues to follow his passion for
-                  research, which includes translating research into practice.
+                  Tyler Makepeace is a certified mental performance consultant (CMPC) and member of the Canadian Sport Psychology Association. He received his Master of Arts in Human Kinetics, specializing in sport and exercise psychology from the University of Ottawa. Tyler's practice expands Western Canada including athletes competing in the Western Hockey League, British Columbia Hockey League, Alberta Junior Hockey League, and Canadian Separate School Hockey League, as well as athletes across the NCAA. He has given workshops and webinars to clubs and associations exploring the impact of the mental game on performance and excellence and is currently affiliated with the Canadian Sport Institute - Alberta. Tyler continues to follow his passion for research, which includes translating research into practice.
                 </p>
                 <p>
                   Tyler calls Calgary, AB home and enjoys spending his free time
